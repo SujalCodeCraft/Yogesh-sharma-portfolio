@@ -1,0 +1,879 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #31363f;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.container {
+  width: 80vw;
+}
+
+main .nav-main {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding-right: 3rem;
+  padding-left: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+main .nav-main .nav-main-img img {
+  width: 100px;
+}
+main .nav-main .nav-middle-main a {
+  text-decoration: none;
+  color: white;
+}
+main .nav-main .nav-middle-main ul {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 5rem;
+}
+main .nav-main .nav-middle-main ul .home {
+  border-bottom: 2px solid orange;
+}
+main .nav-main .nav-middle-main ul li:hover {
+  border-bottom: 2px solid orange;
+}
+main .nav-main .nav-right-main button {
+  border: 1px solid black;
+  padding: 0.5rem 1.2rem;
+  border-radius: 1.5rem;
+  background-color: orange;
+  color: black;
+}
+main .first-section {
+  min-height: 88vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .first-section .first-leftside-main {
+  padding: 1.7rem 0rem;
+}
+main .first-section .first-leftside-main h2 {
+  margin: 1rem 0rem;
+  color: white;
+}
+main .first-section .first-leftside-main h2 span {
+  color: orange;
+}
+main .first-section .first-leftside-main p {
+  font-size: 18px;
+  margin: 1rem 0rem;
+}
+main .first-section .first-leftside-main .first-sec-btn button {
+  margin-right: 1rem;
+  border: 1px solid black;
+  padding: 0.5rem 1.5rem;
+  border-radius: 1.3rem;
+  background-color: orange;
+  color: black;
+}
+main .first-section .first-leftside-main .first-sec-btn button:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: 2px solid black;
+}
+main .first-section .first-leftside-main .first-sec-btn button a {
+  text-decoration: none;
+  color: black;
+}
+main .first-section .first-leftside-main .first-sec-btn button i {
+  margin-left: 0.1rem;
+  margin-right: 0.5rem;
+}
+main .first-section .first-rightside-main {
+  padding: 3.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .first-section .first-rightside-main img {
+  border-radius: 50%;
+  border: 1rem solid orange;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.about-me-main-section {
+  box-shadow: black 0px 7px 29px 0px;
+}
+.about-me-main-section h2 {
+  padding: 1.2rem;
+  color: orange;
+}
+.about-me-main-section .about-sec-img-main {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+  align-items: center;
+}
+.about-me-main-section .about-sec-img-main img {
+  border: 1rem solid orange;
+  border-radius: 50%;
+}
+.about-me-main-section .about-sec-main-content .p-second {
+  color: grey;
+  font-size: 12px;
+  margin: 0;
+}
+.about-me-main-section .about-sec-main-content .my-details-main {
+  margin: 1rem 0px;
+  border: 1px solid orange;
+  background-color: rgba(0, 0, 0, 0.144);
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 1rem;
+  border-radius: 16px;
+  width: 100%;
+}
+.about-me-main-section .about-sec-main-content .my-details-main td {
+  padding: 5px 2rem 1px 1px;
+}
+.about-me-main-section .about-sec-main-content .btn1 {
+  background-color: orange;
+  padding: 0.5rem 1.5rem;
+  border-radius: 1.5rem;
+  border: 1px solid black;
+  margin-right: 1REM;
+}
+.about-me-main-section .about-sec-main-content .btn2 {
+  background-color: rgba(0, 0, 0, 0.015);
+  color: white;
+  border: 1px solid white;
+}
+
+.services-main {
+  padding: 4rem 0rem;
+}
+.services-main h1 {
+  margin: 1rem auto;
+  color: orange;
+}
+.services-main .frontend-main {
+  background-color: rgba(0, 0, 0, 0.304);
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  border-radius: 1rem;
+  text-align: center;
+  padding: 1rem 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid orange;
+}
+.services-main .frontend-main .i {
+  background-color: white;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+.services-main .frontend-main .i i {
+  font-size: 2rem;
+  color: black;
+}
+.services-main .frontend-main p {
+  font-size: 12px;
+}
+.services-main .frontend-main h5 {
+  margin-bottom: 0;
+  margin: 0.5rem auto;
+}
+.services-main .review-main-row .col-md-3 {
+  display: flex;
+  justify-content: center;
+}
+.services-main .review-main-row .reviews-main {
+  border: 1px solid orange;
+  padding: 1rem 0rem;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.196);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  color: #F8D23A;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.services-main .review-main-row .reviews-main .i {
+  background-color: black;
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.services-main .review-main-row .reviews-main .i i {
+  font-size: 1.5rem;
+  color: white;
+  display: grid;
+  place-items: center;
+}
+.services-main .review-main-row .reviews-main h3 {
+  margin: 0;
+}
+.services-main .review-main-row .reviews-main p {
+  margin: 0;
+}
+
+.skills-main {
+  padding: 4rem 0rem;
+  box-shadow: black 0px 7px 29px 0px;
+}
+.skills-main h1 {
+  color: orange;
+}
+.skills-main .skills-main-range .skills-line {
+  margin: 1.5rem 0rem;
+  width: 75%;
+  height: auto;
+}
+.skills-main .skills-main-range .skills-line .range-container {
+  height: 1rem;
+  width: 100%;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 1rem;
+}
+.skills-main .skills-main-range .skills-line .range-container .range-fill-html {
+  height: 100%;
+  width: 90%;
+  background-color: #0ae2ff;
+  border-radius: 1rem;
+}
+.skills-main .skills-main-range .skills-line .range-container .range-fill-css {
+  height: 100%;
+  width: 80%;
+  background-color: #0ae2ff;
+  border-radius: 1rem;
+}
+.skills-main .skills-main-range .skills-line .range-container .range-fill-scss {
+  height: 100%;
+  width: 85%;
+  background-color: #0ae2ff;
+  border-radius: 1rem;
+}
+.skills-main .skills-main-range .skills-line .range-container .range-fill-responsive {
+  height: 100%;
+  width: 100%;
+  background-color: #0ae2ff;
+  border-radius: 1rem;
+}
+.skills-main .skills-main-range .skills-line .text-main {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px;
+  color: orange;
+}
+.skills-main .skills-main-range .skills-line .text-main P {
+  margin: 0;
+}
+
+.freelance-main {
+  box-shadow: inset 0px -8px 218px black;
+  padding: 3rem 2rem;
+}
+.freelance-main .freelance-line {
+  padding: 1rem 0rem 1rem 5rem;
+}
+.freelance-main .freelance-line h3 {
+  color: rgb(255, 132, 0);
+}
+.freelance-main .freelace-btn {
+  height: 9rem;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.freelance-main .freelace-btn button {
+  padding: 0.5rem 1.5rem;
+  border-radius: 1.5rem;
+  background-color: orange;
+  color: black;
+}
+
+.my-projects-main {
+  padding: 4rem 0rem;
+}
+.my-projects-main h1 {
+  color: orange;
+}
+.my-projects-main .col-12 {
+  border: 1px solid white;
+}
+.my-projects-main .grow-professionally-main {
+  padding: 1rem;
+}
+.my-projects-main .grow-professionally-main iframe {
+  width: 100%;
+  height: 60vh;
+}
+.my-projects-main .three-main-img .col-md-4 {
+  padding: 1rem;
+}
+.my-projects-main .more-projects-main {
+  text-align: center;
+}
+.my-projects-main .more-projects-main a {
+  text-decoration: none;
+  margin: 1.2rem;
+}
+
+.contact-me-main {
+  padding: 2rem 0.5rem;
+  margin-bottom: 2rem;
+}
+.contact-me-main h1 {
+  color: orange;
+}
+.contact-me-main .contact-me-main-row {
+  box-shadow: black 0px 3px 8px;
+  padding-right: 1rem;
+}
+.contact-me-main .contact-me-main-row .address-main ul {
+  list-style: none;
+}
+.contact-me-main .contact-me-main-row .address-main ul li {
+  margin: 2rem 0rem;
+}
+.contact-me-main .contact-me-main-row .address-main ul li span i {
+  font-size: 25px;
+  margin: 1rem;
+  color: orange;
+}
+.contact-me-main .contact-me-main-row .contact-main input {
+  border: 1px solid white;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border-radius: none;
+  background-color: #31363F;
+  color: white;
+}
+.contact-me-main .contact-me-main-row .contact-main input ::-moz-placeholder {
+  color: white;
+}
+.contact-me-main .contact-me-main-row .contact-main input ::placeholder {
+  color: white;
+}
+.contact-me-main .contact-me-main-row .contact-main textarea {
+  background-color: #31363F;
+  color: white;
+}
+.contact-me-main .contact-me-main-row .btn-main button {
+  padding: 0.5rem 1.5rem;
+  background-color: orange;
+  border: 1px solid black;
+  color: black;
+  border-radius: 1.5rem;
+  margin: 1.5rem;
+}
+
+.rights-main {
+  box-shadow: 0 -4px 6px -2px rgba(0, 0, 0, 0.3);
+  padding: 1rem;
+}
+.rights-main p span {
+  color: orange;
+}
+
+@keyframes skill-filler {
+  from {
+    width: 0%;
+    background-color: orange;
+  }
+  to {
+    width: 90%;
+    background-color: #0ae2ff;
+  }
+}
+.range-fill-html {
+  animation: skill-filler 5s;
+}
+
+@keyframes skill-filler-80 {
+  from {
+    width: 0%;
+    background-color: orange;
+  }
+  to {
+    width: 80%;
+    background-color: #0ae2ff;
+  }
+}
+.range-fill-css {
+  animation: skill-filler-80 5s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes skiller-filler-85 {
+  from {
+    width: 0%;
+    background-color: orange;
+  }
+  to {
+    width: 85%;
+    background-color: #0ae2ff;
+  }
+}
+.range-fill-scss {
+  animation: skiller-filler-85;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes skill-filler-100 {
+  from {
+    width: 0%;
+    background-color: orange;
+  }
+  to {
+    width: 100%;
+    background-color: #0ae2ff;
+  }
+}
+.range-fill-responsive {
+  animation: skill-filler-100;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+}
+
+@media only screen and (min-width: 425px) and (max-width: 576px) {
+  main .nav-main {
+    padding: 0px;
+    justify-content: space-between;
+  }
+  main .nav-main .nav-main-img img {
+    width: 85px;
+  }
+  main .nav-main .nav-middle-main ul {
+    gap: 1.5rem;
+    font-size: 13px;
+  }
+  main .first-section .first-rightside-main {
+    padding: 0px;
+  }
+  main .first-section .first-leftside-main .software {
+    padding-right: 12rem;
+  }
+  .services-main .review-main-row .reviews-main {
+    height: 100px;
+    width: 100px;
+  }
+  .services-main .review-main-row .reviews-main .i {
+    height: 30px;
+    width: 30px;
+  }
+  .services-main .review-main-row .reviews-main h3 {
+    font-size: 10px;
+  }
+  .services-main .review-main-row .reviews-main p {
+    font-size: 10px;
+  }
+  .skills-main .skills-main-range .skills-line {
+    width: 95%;
+  }
+  .freelance-main {
+    padding: 2rem 0rem;
+  }
+  .freelance-main .freelance-line {
+    padding: 0;
+  }
+  .freelance-main .freelace-btn {
+    height: 2rem;
+    justify-content: start;
+  }
+  .contact-main {
+    padding: 1rem;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  main .nav-main {
+    padding: 0px;
+  }
+  main .nav-main .nav-middle-main ul {
+    gap: 3rem;
+  }
+  .about-me-main-section {
+    padding: 1rem 0rem;
+  }
+  .about-me-main-section .about-sec-img-main {
+    height: auto;
+    padding: 2rem;
+    width: 50%;
+  }
+  .services-main .col-md-4 {
+    padding: 1rem !important;
+  }
+  .services-main .frontend-main h5 {
+    font-size: 16px;
+    color: orange;
+  }
+  .services-main .review-main-row .reviews-main {
+    height: 150px;
+    width: 150px;
+  }
+  .services-main .review-main-row .reviews-main .i {
+    height: 50px;
+    width: 50px;
+  }
+  .services-main .review-main-row .reviews-main .i i {
+    font-size: 1rem;
+  }
+  .first-section .first-leftside-main p {
+    font-size: 15px;
+  }
+  main .first-section .first-leftside-main h2 {
+    margin-right: 1rem;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .about-me-main-section .about-sec-img-main {
+    height: auto;
+    padding-bottom: 1rem;
+  }
+  .about-me-main-section {
+    padding: 1rem;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 320px) {
+  .container {
+    width: 100%;
+  }
+  main .nav-main {
+    padding: 0;
+    justify-content: center;
+  }
+  main .nav-main .nav-main-img img {
+    width: 65px;
+  }
+  main .nav-main .nav-middle-main ul {
+    gap: 1rem;
+    font-size: 10px;
+    justify-content: normal;
+  }
+  main .nav-main .nav-right-main {
+    display: none;
+  }
+  main .first-section .first-leftside-main {
+    padding: 0rem;
+    padding-bottom: 2.5rem;
+  }
+  main .first-section .first-leftside-main h2 {
+    margin: 0px;
+  }
+  main .first-section .first-leftside-main .software {
+    padding-right: 1px;
+    font-size: 20px;
+    margin: 10px 0px;
+  }
+  main .first-section .first-leftside-main p {
+    font-size: 12px;
+  }
+  main .first-section .first-leftside-main .first-sec-btn button {
+    margin: 10px 0rem;
+  }
+  main .first-section .first-rightside-main {
+    padding: 2rem;
+  }
+  .about-me-main-section {
+    padding-bottom: 2rem;
+  }
+  .about-me-main-section h2 {
+    margin: 1rem;
+  }
+  .about-me-main-section .about-sec-main-content .p-first {
+    font-size: 14px;
+  }
+  .about-me-main-section .about-sec-main-content .btn2 {
+    margin: 0;
+  }
+  .my-details-main {
+    font-size: 10px;
+  }
+  .services-main {
+    padding: 2rem 0rem;
+  }
+  .services-main .review-main-row .row {
+    margin-top: 10px !important;
+  }
+  .services-main .review-main-row .row .col-md-3 {
+    padding: 0;
+  }
+  .services-main .review-main-row .row .reviews-main {
+    border: none;
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
+    padding: 0;
+  }
+  .services-main .review-main-row .row .reviews-main .i {
+    height: 25px;
+    width: 25px;
+  }
+  .services-main .review-main-row .row .reviews-main .i i {
+    font-size: 12px;
+  }
+  .services-main .review-main-row .row .reviews-main h3 {
+    font-size: 13px;
+  }
+  .services-main .review-main-row .row .reviews-main P {
+    font-size: 7px;
+  }
+  .skills-main {
+    padding: 3rem 0rem;
+  }
+  .skills-main h1 {
+    border-bottom: 1px solid white;
+  }
+  .skills-main .skills-main-range .skills-line {
+    width: 95%;
+  }
+  .skills-main .skills-main-range h2 {
+    padding: 1rem 0rem;
+    color: orange;
+  }
+  .skills-main .skills-main-range p {
+    font-size: 14px;
+  }
+  .freelance-main {
+    padding: 1rem;
+  }
+  .freelance-main .freelance-line {
+    padding: 0.5rem;
+  }
+  .freelance-main .freelace-btn {
+    height: 3rem;
+  }
+  .my-projects-main .grow-professionally-main {
+    display: none;
+  }
+  .contact-me-main .contact-me-main-row {
+    padding: 1rem;
+  }
+  .contact-me-main .contact-me-main-row .address-main ul li {
+    margin: 0rem;
+    font-size: 12px;
+  }
+  .contact-me-main .contact-me-main-row .address-main ul {
+    padding: 0;
+  }
+}
+@media only screen and (min-width: 321px) and (max-width: 376px) {
+  .container {
+    width: 100%;
+  }
+  main .nav-main {
+    padding: 0;
+    justify-content: space-evenly;
+  }
+  main .nav-main .nav-main-img img {
+    width: 75px;
+  }
+  main .nav-main .nav-middle-main ul {
+    gap: 1rem;
+    font-size: 12px;
+    justify-content: normal;
+  }
+  main .nav-main .nav-right-main {
+    display: none;
+  }
+  main .first-section .first-leftside-main {
+    padding: 0rem;
+    padding-bottom: 2.5rem;
+  }
+  main .first-section .first-leftside-main .software {
+    padding-right: 3rem;
+  }
+  main .first-section .first-leftside-main p {
+    font-size: 15px;
+  }
+  main .first-section .first-leftside-main .first-sec-btn button {
+    margin: 1rem 0rem;
+  }
+  main .first-section .first-rightside-main {
+    padding: 2rem;
+  }
+  .about-me-main-section .about-sec-main-content .my-details-main {
+    font-size: 12px;
+  }
+  .services-main {
+    padding: 2rem 0rem;
+  }
+  .services-main .review-main-row .row {
+    margin-top: 10px !important;
+  }
+  .services-main .review-main-row .row .col-md-3 {
+    padding: 0;
+  }
+  .services-main .review-main-row .row .reviews-main {
+    border: none;
+    border-radius: 50%;
+    height: 85px;
+    width: 85px;
+    padding: 0;
+  }
+  .services-main .review-main-row .row .reviews-main .i {
+    height: 25px;
+    width: 25px;
+  }
+  .services-main .review-main-row .row .reviews-main .i i {
+    font-size: 12px;
+  }
+  .services-main .review-main-row .row .reviews-main h3 {
+    font-size: 13px;
+  }
+  .services-main .review-main-row .row .reviews-main P {
+    font-size: 7px;
+  }
+  .skills-main {
+    padding: 3rem 0rem;
+  }
+  .skills-main .skills-main-range .skills-line {
+    width: 95%;
+  }
+  .skills-main .skills-main-range h2 {
+    padding: 1rem 0rem;
+    color: orange;
+  }
+  .skills-main .skills-main-range p {
+    font-size: 14px;
+  }
+  .freelance-main {
+    padding: 1rem;
+  }
+  .freelance-main .freelance-line {
+    padding: 0.5rem;
+  }
+  .freelance-main .freelace-btn {
+    height: 3rem;
+  }
+  .my-projects-main .grow-professionally-main {
+    display: none;
+  }
+  .contact-me-main .contact-me-main-row {
+    padding: 1rem;
+  }
+  .contact-me-main .contact-me-main-row .address-main ul li {
+    margin: 0rem;
+    font-size: 15px;
+  }
+  .contact-me-main .contact-me-main-row .address-main ul {
+    padding: 0;
+  }
+}
+@media only screen and (min-width: 377px) and (max-width: 426px) {
+  .container {
+    width: 100%;
+  }
+  main .nav-main {
+    padding: 0;
+    justify-content: space-evenly;
+  }
+  main .nav-main .nav-main-img img {
+    width: 75px;
+  }
+  main .nav-main .nav-middle-main ul {
+    gap: 1rem;
+    font-size: 12px;
+    justify-content: normal;
+  }
+  main .nav-main .nav-right-main {
+    display: none;
+  }
+  main .first-section .first-leftside-main {
+    padding: 0rem;
+    padding-bottom: 2.5rem;
+    padding-left: 1rem;
+  }
+  main .first-section .first-leftside-main .software {
+    padding-right: 5.1rem;
+  }
+  main .first-section .first-leftside-main p {
+    font-size: 15px;
+  }
+  main .first-section .first-leftside-main .first-sec-btn button {
+    margin: 1rem 0rem;
+  }
+  main .first-section .first-rightside-main {
+    padding: 2rem;
+  }
+  .services-main {
+    padding: 2rem 0rem;
+  }
+  .services-main .review-main-row .row {
+    margin-top: 10px !important;
+  }
+  .services-main .review-main-row .row .col-md-3 {
+    padding: 0;
+  }
+  .services-main .review-main-row .row .reviews-main {
+    border: none;
+    border-radius: 50%;
+    height: 85px;
+    width: 85px;
+    padding: 0;
+  }
+  .services-main .review-main-row .row .reviews-main .i {
+    height: 25px;
+    width: 25px;
+  }
+  .services-main .review-main-row .row .reviews-main .i i {
+    font-size: 12px;
+  }
+  .services-main .review-main-row .row .reviews-main h3 {
+    font-size: 13px;
+  }
+  .services-main .review-main-row .row .reviews-main P {
+    font-size: 7px;
+  }
+  .about-me-main-section .about-sec-main-content .my-details-main {
+    font-size: 15px;
+  }
+  .skills-main {
+    padding: 3rem 0rem;
+  }
+  .skills-main .skills-main-range .skills-line {
+    width: 95%;
+  }
+  .skills-main .skills-main-range h2 {
+    padding: 1rem 0rem;
+    color: orange;
+  }
+  .skills-main .skills-main-range p {
+    font-size: 14px;
+  }
+  .freelance-main {
+    padding: 1rem;
+  }
+  .freelance-main .freelance-line {
+    padding: 0.5rem;
+  }
+  .freelance-main .freelace-btn {
+    height: 3rem;
+  }
+  .contact-me-main .contact-me-main-row {
+    padding: 1rem;
+  }
+  .contact-me-main .contact-me-main-row .address-main ul li {
+    margin: 0rem;
+    font-size: 15px;
+  }
+  .contact-me-main .contact-me-main-row .address-main ul {
+    padding: 0;
+  }
+}/*# sourceMappingURL=main.css.map */
